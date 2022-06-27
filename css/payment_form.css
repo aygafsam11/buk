@@ -1,0 +1,77 @@
+*{box-sizing: border-box;}
+		header{
+			text-align: center;
+			color: blue;
+			justify-content: center;
+		}
+		fieldset{
+			width: 500px;
+			border-radius: 5px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		a {
+			text-decoration: none;
+			padding: 5px;
+		}
+		.form1{
+			margin-top: 10px;
+		}
+		.search{
+			height: 30px;
+			background-color: teal;
+			color: white;
+			width: 100px;
+			font-weight: bold;
+			font-family: sans-serif;
+			border-radius: 5px;
+			border: none;
+		}
+		.clear{
+			height: 30px;
+			background-color: blue;
+			width: 50px;
+			color: white;
+			font-weight: bold;
+			font-family: sans-serif;
+			border-radius: 5px;
+			border: none;
+		}
+		.view{
+			background-color: blue;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			font-size: 15px;
+            cursor: pointer;
+		}
+		.delete{
+			background-color: red;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			margin-left: 5px;
+			font-size: 15px;
+            cursor: pointer;
+		}
+		@media screen and (max-width: 840px){
+			.table1{
+				width: auto;
+			}
+			.delete{
+				margin-top: 2px;
+				margin-left: 0;
+			}
+		}
+		@media screen and (max-width: 515px){
+			.table1{
+				width: auto;
+			}
+			.delete{
+				margin-top: 2px;
+				margin-left: 0;
+			}
+			fieldset{
+				width: auto;
+			}
+		}

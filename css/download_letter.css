@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+			header{
+				text-align: center;
+				color: blue;
+				justify-content: center;
+			}
+			fieldset{
+				width: 500px;
+				border-radius: 5px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			/* .table1{
+				width: auto;
+			} */
+			a{
+				text-decoration: none;
+				padding: 5px;
+			}
+			.download{
+			height: 30px;
+			background-color: green;
+			color: white;
+			font-weight: bold;
+			font-family: sans-serif;
+			border-radius: 5px;
+			border: none;
+			width: fit-content;
+			cursor: pointer;
+			}
+			@media screen and (max-width: 840px){
+				.table1{
+					width: auto;
+				}
+				fieldset{
+					width: 400px;
+				}
+			}
+			@media screen and (max-width: 515px){
+				fieldset{
+					width: auto;
+				}
+			}

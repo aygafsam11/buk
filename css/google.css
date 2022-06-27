@@ -1,0 +1,153 @@
+	*{
+		box-sizing: border-box;
+	}
+.nav{
+			list-style-type: none;
+			text-align: right;
+			margin: 0;
+			padding: 0;
+		}
+		.nav li{	
+				display: inline-block;
+				font-size: 20px;
+				padding: 10px;
+
+		}
+		.nav li a{
+			text-decoration: none;
+		}
+		 a:hover{
+			color: purple;
+		}
+		.bee{
+			width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			
+		}
+		#name{
+			width: 530px;
+			border-radius: 20px;
+		}
+		input[type=text]{
+			border: 1px solid #ccc;
+  			border-radius: 20px;
+  			height: 35px;
+			box-sizing: border-box;
+			background-color: white;
+			font-size: 16px;
+			background-image: url("images/search1.png" );
+			align-items: right;
+			background-position: 5px 5px;
+			background-repeat: no-repeat;
+			padding: 12px 20px 12px 40px;
+		}
+
+		#gsearch{
+			margin-left: 150px;
+			width: 120px;
+			height: 25px;
+			border: 0px #f0f0f0;
+		}
+		#gsearch:hover{
+			border: 2px solid blue;
+			background-color: lightblue;
+		}
+		#lucky{
+			margin-left: 7px;
+			width: 120px;
+			height: 25px;
+			border: 0px #f0f0f0;
+		}
+		#lucky:hover{
+			border: 2px solid blue;
+			background-color: lightblue;
+		}
+		.down{
+			width: 100%;
+			text-align: center;
+		}
+		.down p a{
+			text-decoration: none;
+		}
+		.image{
+			
+			width: 100;
+			
+			align-items: center;
+			margin-top: 120px;
+		}
+		img{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+			.foot{
+				margin-top: 200px;
+			}
+			h4{
+				color: #999;
+				font-size: 12px;
+				margin-bottom: 5px;
+			}
+			.foot p a{
+				text-decoration: none;
+				color: #999;
+			}
+			.right{
+			text-align: right;
+			margin: 0;
+			padding: 0;
+			}
+			.foot p{
+				word-spacing: 30px;
+			}
+			.left{
+				margin-top: -34px;
+			}
+
+			@media screen and (max-width: 1115px){
+				.bee{
+					width: 500px;
+					margin-right: auto;
+					margin-left: auto;
+				}
+				#name{
+					width: 500px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				img{
+					width: 300px;
+					margin-right: auto;
+					margin-left: auto;
+				}
+				
+			}
+			@media screen and (max-width: 600px){
+				.bee{
+					width: 300px;
+					margin-right: auto;
+					margin-left: auto;
+				}
+				#name{
+					width: 300px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				img{
+					width: 300px;
+					margin-right: auto;
+					margin-left: auto;
+				}
+				.right{
+			text-align: center;
+			margin: 40px;
+			padding: 0;
+			}
+			#gsearch{
+			margin-left: 20px;
+			margin-right: auto;
+			}
+		}

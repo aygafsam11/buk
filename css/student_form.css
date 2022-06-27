@@ -1,0 +1,96 @@
+.test{
+				background-color: white;
+				padding: 10px;
+				
+				margin: 30px; 
+				text-align: center;
+				margin-left: 100px;
+				border-radius: 20px;
+			}
+			.form2{
+				background-color: white;
+				padding: 10px;
+				text-align: center;
+				margin-top: 35px;
+				border-radius: 20px;
+				margin-right: 100;
+				padding: 10px;
+			}
+
+			#stu{
+				color: white;
+				margin-top: 20px;
+				font-size: 50px;
+			}
+			body{
+				background-color: #888;
+				background-image: url("picx.jpg");
+			}
+
+			input{
+				height: 30px;
+				border-radius: 11px;
+				text-align: left;
+			}
+			button{
+				height: 30px;
+				width: 100px;
+				border-radius: 20px;
+				color: blue;
+				font-weight: bold;
+			}
+			nav{
+				text-align: left;
+				padding: 0px;
+				height: 45px;
+			}
+			}
+			nav li{
+				display: inline-block;
+				margin: 0 0 0 100px;
+				font-size: 20px;
+				padding: 5px;
+
+			}
+			ul{
+				list-style-type: none;
+				overflow: hidden;
+				/*background-color: #888;*/
+				margin: 0;
+				padding: 0;
+			}
+		
+			li{
+				float: left;
+			}
+			li a{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 20px;
+			}
+			a:hover:not(.active){
+				background-color: #111;
+			}
+			.active{
+				background-color: #4caf50;
+			}
+			aside.aleft{
+				float: left;
+				position: absolute;
+				width: 700px;
+			}
+			aside.aright{
+				float: right;
+				position: relative;
+				width: 500px;
+			}
+			#hr{
+				background-color: #555;
+				padding-top: 5px;
+			}
+			#dob{
+				border-radius: 0px;
+			}

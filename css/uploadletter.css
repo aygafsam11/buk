@@ -1,0 +1,72 @@
+	*{
+		box-sizing: border-box;
+	}
+		h1{
+			text-align: center;
+			color: blue;
+			margin-top: 0;
+		}
+		img{
+			width: 100px;
+			height: 100px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.parent{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		fieldset{
+			width: 40%;
+			border: 1px solid green;
+			border-radius: 5px;
+			margin-left: 195px;
+			margin-top: -265px;
+			padding: 10px;
+			height: auto;
+		}
+		nav{
+			margin-left: 0px;
+			margin-right: auto;
+		}
+		.upload2, .proceed{
+			color: white;
+			padding: 12px 22px;
+			font-weight: bold;
+			border-radius: 5px;
+			cursor: pointer;
+			background-color: dodgerblue;
+			margin-bottom: 10px;
+			border: none;
+		}
+		.body{
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.file{
+			margin-left: 25%;
+			padding-top: 10px;
+		}
+		p{
+			text-align: center;
+		}
+		.upload1{
+			margin-left: 25%;
+		}
+		
+		@media screen and (max-width: 760px) {
+			.body{
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			fieldset{
+				
+				margin-right: auto;
+			
+			}
+		}
+		

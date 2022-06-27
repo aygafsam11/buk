@@ -1,0 +1,120 @@
+*{
+	box-sizing: border-box;
+	margin-top: 0;
+}
+input[type=text], input[type=email], input[type=password], select{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	height: 40px;
+}
+header{
+	text-align: center;
+	color: blue;
+	justify-content: center;
+}
+
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	text-align: right;
+
+}
+input[type=submit]{
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+.container{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+.col-25{
+	float: left;
+	width: 40%;
+	margin-top: 6px;
+}
+.col-75{
+	float: left;
+	width: 60%;
+	margin-top: 6px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+    input[type=submit] {
+    width: 60%;
+    margin-top: 0;
+  }
+  legend{
+  	border: 150px;
+  }
+.test{
+	padding: 10px;
+	margin: 30px; 
+	text-align: left;
+	margin-left: auto;
+	border-radius: 20px;
+	margin-right: auto;
+			}
+	fieldset{
+		width: 500px;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 5px;
+	}
+
+
+@media screen and (max-width: 1024px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .fieldset{
+  	width: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+}

@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+.first{
+    padding-top: 10px;
+}
+h1{
+    color: blue;
+    margin-top: 0;
+    font-size: 45px;
+}
+.view{
+    border: 0 solid blue;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    height: 20px;
+    width: 60px;
+}
+
+.del{
+    border: 0 solid blue;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    height: 20px;
+}
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px solid teal;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+input[type=text]{
+    width: 300px;
+    margin-left: 150px;
+    height: 25px;
+    border-radius: 15px;
+}
+.search{
+    color: white;
+    background-color: #2a38f8;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    margin-left: 220px;
+    margin-top: 5px;
+    
+}
+.clear{
+    color: white;
+    background-color: #2a38f8;
+    height: 40px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.middle{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.Button:hover{
+    background-color: #999999;
+    color: blue;
+}
+@media screen and (max-width: 820px){
+    .table1{
+        width: auto;
+    }
+}
+@media screen and (max-width: 520px){
+    .table1{
+        width: auto;
+    }
+    fieldset{
+        width: 50px;
+    }
+    input[type=text]{
+        width: 180px;
+        margin-left: 70px;
+    }
+    .search{
+        margin-left: 70px;
+    }
+    .clear{
+        margin-left: 0px;
+    }
+}

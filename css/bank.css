@@ -1,0 +1,75 @@
+* {
+			box-sizing: border-box;
+		}
+		h1{
+			text-align: center;
+			color: blue;
+			margin-top: 0;
+		}
+		.t1{
+			margin-left: 250px;
+			margin-right: auto;
+		}
+		input[type=submit]{
+			color: white;
+			
+			border: none;
+			border-radius: 15px;
+			cursor: pointer;
+			background-color: rgb(112, 112, 212);
+			margin-bottom: 5px;
+			font-weight: bold;
+			margin-left: 25px;
+		}
+		#proceed{
+			color: white;
+			
+			border: none;
+			border-radius: 15px;
+			cursor: pointer;
+			background-color: rgb(112, 112, 212);
+			margin-bottom: 5px;
+			font-weight: bold;
+			margin-left: 30px;
+		}
+	
+  .f1{
+  	border: 1px solid green;
+	border-radius: 5px;
+	width: 500px;
+	height: 260px;
+  }
+  fieldset{
+  	border: none;
+  }
+  	.bank{
+  		width: 500px;
+  		margin-left: auto;
+  		margin-right: auto;
+		margin-top: -40px;
+		
+  	}
+
+
+		@media screen and (max-width: 1115px) {
+			.t1{
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+			}
+  	}
+  	
+	  @media screen and (max-width: 760px) {
+			.t1{
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.f1, fieldset, .bank{
+				width: 200px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+  	}
+  	
+  

@@ -1,0 +1,19 @@
+.first{
+    color: blue;
+    display: block;
+    text-align: "center";
+}
+
+.submit, .back{
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}

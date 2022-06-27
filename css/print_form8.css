@@ -1,0 +1,12 @@
+*{
+	box-sizing: border-box;
+}
+
+#button{
+	border: none;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	margin-bottom: 40px;
+}

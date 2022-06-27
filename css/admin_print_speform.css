@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.button{
+    background-color: #2a38f8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button1{
+	background-color: #2a38f8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+	width: 60px;
+    cursor: pointer;
+}
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 860px){
+    .im{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+}

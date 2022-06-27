@@ -1,0 +1,109 @@
+nav{
+			margin-left: 200px;
+			margin-top: 20px;
+		}
+		#f1{
+			margin-left: 400px;
+			margin-top: -260px;
+			margin-right: 200px;
+			margin-bottom: 30px;
+		}
+		#f2{
+			padding: 10px;
+			margin: 10px;
+		}
+		
+		.t2{
+			text-align: center;
+		}
+		#file{
+			margin-left: 40%;
+			padding-top: 10px;
+		}
+		#f3{
+			padding: 10px;
+		}
+		#upload2, #submit{
+			color: white;
+			padding: 12px 22px;
+			font-weight: bold;
+			border-radius: 5px;
+			cursor: pointer;
+			background-color: dodgerblue;
+			margin-bottom: 10px;
+			border: none;
+			margin-left: 270px;
+		}
+		#select,  #allow,  #engaged, #last, #dept, #train, #inst, #esta, #message, #weeks{
+			margin-right: 30px;
+		}
+@media screen and (max-width: 1060px) {
+			nav{
+				width: 100%;
+				margin-left: 50px;
+			}
+			#f1{
+				margin-left: 250px;
+			}
+			#upload2{
+				margin-left: 200px;
+			}
+			#submit{
+				margin-left: 150px;
+			}
+			#f3{
+				padding: 20px;
+				padding-right: 10px;
+			}
+			#img{
+				width: 560;
+				
+			}
+  }
+
+  @media screen and (max-width: 960px) {
+			nav{
+				width: 100%;
+				margin-left: 50px;
+			}
+			#f1{
+				margin-left: 250px;
+			}
+			#upload2{
+				margin-left: 200px;
+			}
+			#submit{
+				margin-left: 150px;
+			}
+			#f3{
+				padding: 20px;
+				padding-right: 10px;
+			}
+			#img{
+				width: 560;
+				
+			}
+  }
+@media screen and (max-width: 680px) {
+			nav{
+				width: 100%;
+				margin-left: 20px;
+			}
+			#f1{
+				margin-left: 220px;
+			}
+			#upload2{
+				margin-left: 200px;
+			}
+			#submit{
+				margin-left: 150px;
+			}
+			#f3{
+				padding: 20px;
+				padding-right: 10px;
+			}
+			#img{
+				width: 560;
+				
+			}
+  }

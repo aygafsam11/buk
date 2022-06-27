@@ -1,0 +1,72 @@
+		*{
+		box-sizing: border-box;
+	}
+	h3{
+			text-align: center;
+			justify-content: center;
+			padding-top: 10px;
+		}
+		.print{
+			color: white;
+			background-color: silver;
+			margin-left: 200px;
+			width: 100px;
+			height: 40px;
+			border: none;
+			border-radius: 5px;
+		}
+		section{
+			margin-left: 100px;
+		}
+
+		body{
+                font-family: sans-serif;
+            }
+            .datee{
+            	margin-left: 100px;
+            }
+            .dear, .namee, .text1, .tanx, .faith{
+            	margin-left: 100px;
+            }
+            .text1 > p{
+            	word-spacing: 5px;
+            	text-align: justify;
+            }
+            .continue{
+            color: white;
+			background-color: silver;
+			float: right;
+			margin-right: 150px;
+			width: 100px;
+			height: 40px;
+			border: none;
+			margin-bottom: 40px;
+			border-radius: 5px;
+            }
+            .continue:hover{
+            	background-color: skyblue;
+            	color: azure;
+            }
+            @media screen and (max-width: 960px){
+            	.datee, .text1, .dear, .namee, .tanx, .faith{
+            		margin-left: 100px;	
+            	}
+            	.print{
+            		margin-left: 100px;
+            	}
+
+            }
+            @media screen and (max-width: 760px){
+            	.datee, .text1, .dear, .namee , .tanx, .faith{
+            		margin-left: auto;
+            		text-align: left;
+            	}
+            		.print{
+            		margin-left: auto;
+            	}
+            	img{
+            		width: auto;
+            		height: 150px;
+            	}
+            }
+            
